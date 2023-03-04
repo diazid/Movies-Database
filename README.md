@@ -74,3 +74,9 @@ Each dataset is contained in a gzipped, tab-separated-values (TSV) formatted fil
 | R             | "19,698,709.39" |
 | NR            | "6,302,358.47"  |
 | Unknown       | "5,822,588.02"  |
+
+## SQL DB Creation
+
+I used sqlalchemy to build from python the sql database from pandas dataframes, the resulting database looks as the following ERD.
+
+![png](erd_movies.png)
