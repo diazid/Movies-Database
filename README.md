@@ -1,4 +1,4 @@
-# Movies Database
+# Movies
 
 by Israel Diaz, idiazg@udd.cl
 
