@@ -44,7 +44,7 @@ Each dataset is contained in a gzipped, tab-separated-values (TSV) formatted fil
 
 Also, it was used the API from TMDB to perform the data enrichment to get the revenue, budget and MPAA Rating certification using the `tconst` values.
 
-![png](https://my-list.ml/img/logo/tmdb-logo-square.png)
+![png](https://my-list.ml/img/logo/tmdb-logo-square.png =250x)
 
 
 ## QUICK EDA
