@@ -46,42 +46,22 @@ Also, it was used the API from TMDB to perform the data enrichment to get the re
 
 <img src="https://my-list.ml/img/logo/tmdb-logo-square.png" alt="tmdb logo" title="TMDB" height="100"/>
 
-
+### Updates:
+* 03/14/2023: Due to new data from tmdb (years 2000 to 2022) the notebooks Movies Database_3_EDA.ipynb and Movies Database_4_Transformations.ipynb have been updated, as well as the .sql database
 
 ## QUICK EDA
 
-### Amount of Movies per certification ID
+### Count of Movies per certification ID
+![png](/img/count_rating.png)
 
-| certification | count |
-|---------------|-------|
-| R             | 229   |
-| PG-13         | 130   |
-| Unknown       | 127   |
-| PG            | 36    |
-| NR            | 17    |
-| G             | 14    |
 
 ### Avg Revenue per certification ID
 
-| certification | Avg. Revenue     |
-|---------------|------------------|
-| G             | "123,746,274.93" |
-| PG            | "109,533,845.75" |
-| PG-13         | "98,963,541.18"  |
-| R             | "33,135,234.21"  |
-| Unknown       | "10,813,612.86"  |
-| NR            | "9,588,674.35"   |
+![png](/img/revenue_rating.png)
 
 ### Avg. Budget per certification ID
 
-| certification | Avg Budget      |
-|---------------|-----------------|
-| PG            | "43,819,367.75" |
-| PG-13         | "42,844,291.75" |
-| G             | "40,857,142.86" |
-| R             | "19,698,709.39" |
-| NR            | "6,302,358.47"  |
-| Unknown       | "5,822,588.02"  |
+![png](/img/budget_rating.png)
 
 ## SQL DB Creation
 
