@@ -87,4 +87,4 @@ The three tests concluded in statistical significance between the variables, but
 * The second test showed that movies over 1.5 hours generate more revenue than shorter ones.
 * The third test revealed that higher rated movies earn more revenue than lower rated ones.
 
-Overall, the results suggest that movie attributes play a significant role in determining revenue.
+Overall, the results suggest that these 3 movie attributes [`MPAA Rating`, `runtime`, `rating`] play a significant role in determining revenue.
