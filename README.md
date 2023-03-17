@@ -68,3 +68,23 @@ Also, it was used the API from TMDB to perform the data enrichment to get the re
 I used sqlalchemy to build from python the sql database from pandas dataframes, the resulting database looks as the following ERD.
 
 ![png](erd_movies.png)
+
+## Hypothesis Testing 
+
+The stakeholder wanted me to answer the following questions:
+
+1. Does the MPAA rating of a movie (G/PG/PG-13/T) affect how much revenue the movie generates?
+2. Do movies that are over 1.5 hours long earn more revenue than movies that are 1.5 hours long (or less)?
+3. Do movies with more rating (votes) earn more than low rating ones.?
+
+To address those problems, I defined diferent hypothesis and performed the propoer testing according to the type of problem to solve, for further details refers to the Notebook #5.
+
+### Outcome from the Hypothesis testing.
+
+The three tests concluded in statistical significance between the variables, but I can go further by complementing with some interpretations from the procedure, then I can complement the answers:
+
+* The first test found that MPAA rating significantly impacts the revenue of a movie.
+* The second test showed that movies over 1.5 hours generate more revenue than shorter ones.
+* The third test revealed that higher rated movies earn more revenue than lower rated ones.
+
+Overall, the results suggest that movie attributes play a significant role in determining revenue.
